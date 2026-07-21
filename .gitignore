@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# IDE settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Local database and data files
+*.db
+*.db-journal
+*.sqlite3
+
+# Credentials & secrets
+.env
+.env.*
+client_secret.json
+credentials.json
+*.pem
+*.key
